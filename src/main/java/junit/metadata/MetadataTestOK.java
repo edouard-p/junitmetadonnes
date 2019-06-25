@@ -31,7 +31,7 @@ public class MetadataTestOK {
 
     @Test
     @TFMetadata( key = "first_KEY", value = {"first_VALUE"})
-    @TFMetadata( key = "list", value = {"first_item", "second_item", "third,_item"})
+    @TFMetadata( key = "list", value = {"first_item", "second_item", "third_item"})
     public void multiAnnot(){
         int a = 2;
         int b = 2;
